@@ -1,0 +1,182 @@
+/* ------------------- 479.99 screen or smaller ------------------- */
+/* ------------------- general css ------------------- */
+*{
+	display: block;
+}
+
+html, body{
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+}
+
+.left-column, .main-column, .footer-info{
+	width: 100%;
+}
+
+title{
+	display: none;
+}
+
+html{
+	box-sizing: border-box;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+.clear{
+	clear: both;
+}
+
+.visible{
+
+}
+
+
+
+
+
+/* ------------------- row sections ------------------- */
+.left-column{
+	/*background-color: green;*/
+	/*height: 30%;*/
+}
+
+.main-column{
+	/*background-color: yellow;*/
+	overflow: hidden;
+	/*height: 65%;*/
+}
+
+footer.footer-info{
+	/*background-color: red;*/
+	/*height: 5%;*/
+}
+
+
+
+
+
+
+/* ------------------- background ------------------- */
+body{
+	/*background-color: blue;*/
+	/*position: relative;*/
+	/*overflow: hidden;*/
+}
+
+
+
+
+
+
+
+/* ------------------- header ------------------- */
+header.side-nav{
+	width: 100%;
+	min-height: 275px;
+	background-image: linear-gradient(rgba(255, 255, 255, .1), rgba(255, 255, 255, .35)), url('../img/photos/landscape-img-480x275-bw.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	/*overflow: hidden;*/
+}
+
+a.logo-150px{
+	display: block;
+	background-color: rgba(9, 9, 9, .3);
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	bottom: -45px;
+}
+
+#nav{
+	/*overflow: hidden;*/
+	/*background-color: red;*/
+	position: absolute;
+	/*bottom: -90%;*/
+}
+
+ul.nav-list > li{
+	width: 200px;
+	margin: 2% 0;
+}
+
+ul.nav-list > li > a{
+	background-color: rgba(9, 9, 9, .1);
+	text-decoration: none;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	text-align: center;
+	font-size: 1.2em;
+}
+
+
+
+
+
+
+
+/* ------------------- main content ------------------- */
+main.main-info{
+	/*background-color: green;*/
+	width: 80%;
+	margin: 55px auto 0px auto;
+	padding: 15% auto 25% auto;
+	/*background-color: white;*/
+	/*overflow: hidden;*/
+}
+
+main.main-info *{
+	text-align: center;
+}
+
+main.main-info h2{
+	background-color: rgba(12, 12, 12, .1);
+	width: 100%;
+	font-size: 2em;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+main.main-info ul.description-list{
+	/*background-color: green;*/
+	width: 100%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	overflow: hidden;
+}
+
+main.main-info ul.description-list li{
+	font-size: .9em;
+	color: red;
+	/*background-color: brown;*/
+	width: 33.33%;
+	float: left;
+}
+
+
+
+
+
+/* ------------------ footer info ------------------ */
+footer.footer-info{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background-color: rgba(12, 12, 12, .25);
+}
+
+footer.footer-info p.copyright-info{
+	padding-top: 2%;
+	padding-bottom: 2%;
+	text-align: center;
+	font-size: .7em;
+}
+
+footer.footer-info p.copyright-info span.genitx{
+	display: inline;
+	color: darkred;
+}

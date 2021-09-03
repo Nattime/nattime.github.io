@@ -1,0 +1,173 @@
+/* ------------------- 480 to 780 screens  ------------------- */
+
+/* ------------------- general css ------------------- */
+*{
+	display: block;
+}
+
+html, body{
+	height: 100%;
+	width: 100%;
+}
+
+.left-column, .main-column, footer.footer-info{
+	width: 100%;
+}
+
+title{
+	display: none;
+}
+
+html{
+	box-sizing: border-box;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+.clear{
+	clear: both;
+}
+
+h2.name, .nav-list li{
+	font-family: Arial;
+}
+
+
+
+
+/* ------------------ rows ------------------ */
+.left-column{
+	/*background-color: white;*/
+	overflow: hidden;
+}
+
+.main-column{
+	padding-top: .2%;
+	/*overflow: hidden;*/
+	min-height: 75%;
+}
+
+footer.footer-info{
+	/*overflow: hidden;*/
+	min-height: 5%;
+}
+
+
+
+/* ------------------- background ------------------- */
+body{
+	background-image: linear-gradient(rgba(255, 255, 255, .1), rgba(255, 255, 255, .35)), url('../img/photos/landscape-img-1200x687-bw.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+}
+
+
+
+
+/* ------------------- header ------------------- */
+header.side-nav{
+	width: 100%;
+	background-color: rgba(12, 12, 12, .3);
+	/*background-color: green;*/
+	overflow: hidden;
+}
+
+header.side-nav a.logo-150px{
+	/*background-color: blue;*/
+	background-color: rgba(12, 12, 12, .1);
+	width: 20%;
+	margin: auto;
+	float: left;
+}
+
+header.side-nav a img{
+	/*background-color: brown;*/
+	width: 100%;
+	height: auto;
+	opacity: .8;
+}
+
+header.side-nav nav{
+	/*background-color: yellow;*/
+	float: right;
+	margin-top: 10%;
+	width: 80%;
+	overflow: hidden;
+}
+
+header nav ul.nav-list li{
+	/*background-color: brown;*/
+	width: 25%;
+	float: left;
+	/*bottom: 0;*/
+}
+
+header nav ul.nav-list li a{
+	/*background-color: rgba(12, 12, 12, 0);*/
+	/*background-color: red;*/
+	text-decoration: none;
+	text-align: center;
+	font-size: 1.3em;
+	color: white;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+
+
+
+/* ------------------ main contents ------------------ */
+main.main-info{
+	width: 80%;
+	margin-top: 10%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(12, 12, 12, .45);
+	overflow: hidden;
+}
+
+main.main-info h2.name{
+	width: 100%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	text-align: center;
+	font-size: 4rem;
+	color: rgba(184, 15, 12, 1);
+}
+
+main.main-info ul.description-list{
+	border-top: .1em dashed red;
+	width: 100%;
+}
+
+main.main-info ul.description-list li{
+	float: left;
+	width: 33.33%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	text-align: center;
+	font-size: 1.3em;
+	color: gainsboro;
+}
+
+
+
+/* ------------------ footer info ------------------ */
+footer.footer-info{
+	width: 100%;
+	background-color: rgba(12, 12, 12, .25);
+}
+
+footer.footer-info p.copyright-info{
+	width: 100%;
+	padding-top: 1%;
+	font-size: .7em;
+	text-align: center;
+}
+
+span.genitx{
+	color: darkred;
+	display: inline;
+}

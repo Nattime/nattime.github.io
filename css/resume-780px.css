@@ -1,0 +1,324 @@
+/* ------------------- general css ------------------- */
+title{
+	display: none;
+}
+
+*{
+	display: block;
+}
+
+html, body{
+	width: 100%;
+	height: auto;
+}
+
+html{
+	box-sizing: border-box;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+hr{
+	clear: both;
+	width: 90%;
+	border-radius: 25px;
+	border: double red;
+	margin: auto;
+}
+
+.clear{
+	clear: both;
+}
+
+span.bold{
+	display: inline;
+	font-weight: bold;
+}
+
+
+
+
+
+/* ------------------ rows ------------------ */
+.left-col, .main-col, footer.footer-info{
+	width: 100%;
+}
+
+.left-col{
+	/*background-color: blue;*/
+}
+
+.main-col{
+	/*background-color: green;*/
+}
+
+
+
+
+
+/* ------------------ background ------------------ */
+body{
+	background-color: white;
+}
+
+
+
+
+
+/* ------------------ side panels ------------------ */
+aside.side-nav{
+	background-color: rgba(12, 12, 12, .3);
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+aside nav{
+	/*background-color: brown;*/
+	float: left;
+	width: 80%;
+	margin-top: 8%;
+}
+
+aside.side-nav a.logo-150px{
+	background-color: rgba(1, 1, 1, .05);
+	/*background-color: yellow;*/
+	float: left;
+	width: 20%;
+}
+
+aside.side-nav a img{
+	/*background-color: green;*/
+	width: 100%;
+	height: auto;
+	opacity: .8;
+}
+
+ul.nav-list li a{
+	background-color: rgba(12, 12, 12, .1);
+	text-decoration: none;
+	font-size: 1.5em;
+	text-align: center;
+	display: block;
+	color: white;
+	width: 80%;
+	margin: auto;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+
+
+
+
+/* ------------------ main contents ------------------ */
+main.resume{
+	background-color: rgba(12, 12, 12, .2);
+	/*background-color: blue;*/
+	width: 80%;
+	margin: 1% auto;
+}
+
+header.header-info{
+	/*background-color: red;*/
+	width: 100%;
+	margin-bottom: 1%;
+	overflow: hidden;
+	position: relative;
+}
+
+header.header-info a{
+	background-color: rgba(1, 1, 1, .05);
+	/*background-color: yellow;*/
+	width: 20%;
+	margin: auto;
+	margin-top: 1%;
+	margin-left: 1%;
+	margin-bottom: 1%;
+	float: left;
+}
+
+header.header-info a img{
+	/*background-color: green;*/
+	width: 100%;
+}
+
+
+header.header-info div.user-info{
+	/*background-color: green;*/
+	bottom: 0;
+	right: 2%;
+	width: 75%;
+	max-height: 90%;
+	margin-bottom: 1%;
+	margin-top: 1%;
+	position: absolute;
+	overflow: hidden;
+}
+
+div.user-info h2.name{
+	/*background-color: purple;*/
+	font-size: 3em;
+	font-family: Arial;
+	width: 100%;
+	text-align: right;
+	margin-bottom: 1%;
+}
+
+div.user-info ul.email-phone-info{
+	/*background-color: yellow;*/
+	overflow: hidden;
+	width: 100%;
+}
+
+div.user-info ul.email-phone-info li{
+	/*background-color: white;*/
+	float: right;
+	margin-left: 5%;
+}
+
+main.resume section{
+	/*background-color: yellow;*/
+	width: 100%;
+	height: auto;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	padding-bottom: 2%;
+	overflow: hidden;
+}
+
+section h2{
+	/*background-color: gray;*/
+	font-size: 2em;
+	font-family: Tahoma;
+	padding-left: 5%;
+	width: 95%;
+	color: red;
+}
+
+section h3{
+	/*background-color: pink;*/
+	font-size: 1.2em;
+	width: 90%;
+	padding-left: 10%;
+	margin-top: 1%;
+}
+
+main.resume section > p{
+	background-color: rgba(12, 12, 12, .2);
+	font-family: Times;
+	width: 78%;
+	padding: 2%;
+	margin: auto;
+	font-size: 1em;
+	text-align: justify;
+	border-radius: 0 25px;
+}
+
+section h2+ul{
+	border-radius: 0 25px;
+}
+
+
+section h2+ul li:first-of-type{
+	border-radius: 0 20px 0 0;
+}
+
+section h2+ul li:last-of-type{
+	border-radius: 0 0 0 20px;
+}
+
+section h2+ul li:only-child{
+	border-radius: 0 20px;
+}
+
+section ul{
+	background-color: rgba(12, 12, 12, .2);
+	/*background-color: brown;*/
+	width: 80%;
+	font-family: Times;
+	margin: auto;
+	margin-top: 1%;
+	overflow: hidden;
+}
+
+h3+ul{
+	width: 75%;
+}
+
+section ul li{
+	background-color: rgba(12, 12, 12, .2);
+	/*background-color: green;*/
+	overflow: hidden;
+	text-align: justify;
+	padding: 2%;
+	margin: 2%;
+	width: 92%;
+}
+
+section.skills li{
+	width: 46%;
+	text-align: center;
+	margin: 1%;
+	padding: 1%;
+}
+
+section.skills ul li:nth-of-type(even){
+	background-color: rgba(12, 12, 12, .2);
+	/*background-color: green;*/
+	float: right;
+}
+
+section.skills ul li:nth-of-type(odd){
+	background-color: rgba(12, 12, 12, .2);
+	/*background-color: pink;*/
+	float: left;
+	text-align: center;
+}
+
+div.left-section-col{
+	/*background-color: red;*/
+	float: left;
+	width: 50%;
+}
+
+div.right-section-col{
+	/*background-color: black;*/
+	float: right;
+	width: 50%;
+}
+
+.projects-portfolio li{
+	text-align: center;
+}
+
+
+
+
+
+
+/* ------------------ footer info ------------------ */
+footer.footer-info{
+	background-color: rgba(12, 12, 12, .2);
+	/*background-color: yellow;*/
+	width: 100%;
+}
+
+footer.footer-info p.copyright-info{
+	/*background-color: brown;*/
+	text-align: center;
+	width: 90%;
+	margin: auto;
+	font-size: .75em;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+span.genitx{
+	display: inline;
+	color: darkred;
+}
+
+span.genitx:hover{
+	color: white;
+}

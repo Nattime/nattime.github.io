@@ -1,0 +1,336 @@
+/*
+	------------------- color scheme --------------------
+
+	red: #b80f0c, rgb(184, 15, 12), rgba(184, 15, 12, 1)
+	cyan: #0cb5b8, rgb(12, 181, 184), rgba(12, 181, 184, 1)
+
+	logo background: background-color: rgba(12, 12, 12, .3)
+	layover color: rgba(0, 0, 0, .7)
+*/
+
+
+/* ------------------- general css ------------------- */
+title{
+	display: none;
+}
+
+*{
+	display: block;
+}
+
+html, body{
+	width: 100%;
+	height: auto;
+}
+
+html{
+	box-sizing: border-box;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+hr{
+	clear: both;
+	width: 90%;
+	border-radius: 25px;
+	border: double red;
+	margin: auto;
+}
+
+.clear{
+	clear: both;
+}
+
+
+
+
+
+
+/* ------------------ background ------------------ */
+body{
+	background-color: rgba(0, 0, 0, 0);
+}
+
+
+
+
+
+
+
+/* ------------------ header in main ------------------ */
+header.header-info{
+	/*background-color: blue;*/
+	width: 100%;
+	height: auto;
+	margin-bottom: 2%;
+	overflow: hidden;
+}
+
+.header-info-left-col{
+	/*background-color: green;*/
+	width: 25%;
+	height: 100%;
+	float: left;
+}
+
+.header-info-left-col > a{
+	background-color: rgba(1, 1, 1, .05);
+	width: 80%;
+	margin: 5% auto 5% auto;
+	transition: color .5s, background-color .5s;
+}
+
+.header-info-left-col > a:hover{
+	background-color: rgba(12, 12, 12, .5);
+}
+
+.header-info-left-col > a > img{
+	width: 100%;
+	height: auto;
+}
+
+.header-info-right-col{
+	/*background-color: yellow;*/
+	width: 75%;
+	height: 100%;
+	float: left;
+}
+
+.header-info-right-col > hr{
+	width: 55%;
+	margin: auto 10px auto auto;
+	border: solid red;
+	border-radius: 0px 25px 0px 100px;
+}
+
+h2.name{
+	font-size: 4.5vw;
+	font-family: Arial;
+	font-style: oblique;
+	color: rgba(184, 15, 12, 1);
+	width: 95%;
+	height: 100%;
+	text-align: right;
+	padding-right: 5%;
+	padding-top: 5%;
+}
+
+ul.contact-info{
+	/*background-color: green;*/
+	width: 100%;
+	margin: 10px auto;
+	overflow: hidden;
+}
+
+ul.contact-info > li{
+	/*background-color: red;*/
+	width: auto;
+	padding-right: 10px;
+	float: right;
+	text-align: right;
+	font-size: 16px;
+}
+
+ul.contact-info > li > a{
+	text-decoration: none;
+}
+
+ul.social-media-info{
+	/*background-color: blue;*/
+	width: 100%;
+	margin: 10px auto;
+	overflow: hidden;
+}
+
+ul.social-media-info > li{
+	width: auto;
+	padding-right: 10px;
+	float: right;
+	text-align: right;
+	font-size: 16px;
+}
+
+ul.social-media-info > li > a{
+	text-decoration: none;
+}
+
+
+
+
+/*div.up-arrow-hr{
+	height: 20px;
+	width: 100%;
+	background-color: green;
+}
+
+div.bot-triangle{
+	width: 0;
+	height: 0;
+	border-bottom: 20px solid red;
+	border-left: 20px solid transparent;
+}
+
+hr.unique-hr{
+	width: 100px;
+	height: 10px;
+	background-color: red;
+	border: none;
+}*/
+
+
+
+
+
+
+/* ------------------ main contents ------------------ */
+.main-col{
+	/*background-color: rgba(12, 12, 12, .2);*/
+	width: 100%;
+	max-width: 960px;
+	margin: 1% auto;
+	box-shadow: -5px -1px 30px #000;
+}
+
+section{
+	width: 100%;
+	height: auto;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	padding-bottom: 2%;
+	overflow: hidden;
+}
+
+section > h2{
+	font-size: 2em;
+	font-family: Tahoma;
+	padding-left: 5%;
+	width: 95%;
+	color: red;
+}
+
+section h3{
+	font-size: 1.2em;
+	width: 90%;
+	padding-left: 10%;
+	margin-top: 1%;
+}
+
+section > p{
+	font-family: Times;
+	width: 78%;
+	padding: 2%;
+	margin: auto;
+	font-size: 1em;
+	text-align: justify;
+	background-color: rgba(12, 12, 12, .2);
+	border-radius: 0 25px;
+}
+
+section h2+ul{
+	border-radius: 0 25px;
+}
+
+section > h2+ul > li > p > span.indent{
+	margin-top: 1%;
+	text-indent: 2%;
+}
+
+section h2+ul li:first-of-type{
+	border-radius: 0 20px 0 0;
+}
+
+section h2+ul li:last-of-type{
+	border-radius: 0 0 0 20px;
+}
+
+section h2+ul li:only-child{
+	border-radius: 0 20px;
+}
+
+section ul{
+	width: 80%;
+	font-family: Times;
+	background-color: rgba(12, 12, 12, .2);
+	margin: auto;
+	margin-top: 1%;
+	overflow: hidden;
+}
+
+h3+ul{
+	width: 75%;
+}
+
+section ul li{
+	background-color: rgba(12, 12, 12, .2);
+	overflow: hidden;
+	text-align: justify;
+	padding: 2%;
+	margin: 2%;
+	width: 92%;
+}
+
+
+
+section.skills li{
+	width: 46%;
+	text-align: center;
+	margin: 1%;
+	padding: 1%;
+}
+
+section.skills ul li:nth-of-type(even){
+	float: right;
+	background-color: rgba(12, 12, 12, .2);
+}
+
+section.skills ul li:nth-of-type(odd){
+	float: left;
+	background-color: rgba(12, 12, 12, .2);
+	text-align: center;
+}
+
+div.left-section-col{
+	float: left;
+	width: 50%;
+}
+
+div.right-section-col{
+	float: right;
+	width: 50%;
+}
+
+.projects-portfolio li{
+	text-align: center;
+}
+
+span.bold{
+	display: inline;
+	font-weight: bold;
+	font-size: 1.1em;
+}
+
+
+
+
+
+/* ------------------ footer info ------------------ */
+footer.footer-info{
+	width: 100%;
+	background-color: rgba(12, 12, 12, .2);
+}
+
+footer.footer-info p.copyright-info{
+	text-align: center;
+	font-size: .75em;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+span.genitx{
+	display: inline;
+	color: darkred;
+}
+
+span.genitx:hover{
+	color: white;
+}
