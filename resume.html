@@ -4,20 +4,21 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href="./css/css-reset.css" rel="stylesheet">
-		<!-- <link href="./css/resume-780px.css" media="all and (max-width: 779.99px)" rel="stylesheet"> -->
-		<!-- <link href="./css/resume-styles.css" media="all and (min-width: 780px)" rel="stylesheet"> -->
 		<link href="./css/resume-styles.css" rel="stylesheet">
-		<script type="text/javascript" src="./js/resume.js"></script>
+		<link href="./css/nav.css" rel="stylesheet">
+		<script type="text/javascript" src="./js/footer.js"></script>
 		<title>Resume</title>
 	</head>
 	<body>
+		<nav class="shadow-on-shadow" id="header-nav">
+			<ul class="nav-list">
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="resume.html">RESUME</a></li>
+				<li><a href="gallery.html">GALLERY</a></li>
+			</ul>
+		</nav>
 		<main class="main-col">
 			<header class="header-info">
-				<div class="header-info-left-col">
-					<a href="index.html"><img src="./img/photos/jiehuang-logo-150x150-red.png" class="portrait"></a>
-				</div>
-
-				<div class="header-info-right-col">
 					<h2 class="name">Jie Huang</h2>
 					<hr>
 					<ul class="social-media-info">
@@ -29,35 +30,40 @@
 					<ul class="contact-info">
 						<li>jie.huang.cs@gmail.com</li>
 						<li>C: (732) 829 - 5661</li>
-						<li>H: (732) 828 - 5908</li>
 					</ul>
-					<!-- <div class="up-arrow-hr">
-						<div class="bot-triangle">
-						</div>
-						<hr class="unique-hr">
-					</div> -->
-				</div>
 			</header>
 
 			<section class="summary">
 				<h2>Summary</h2>
-				<p>I am a software developer proficient in Object Oriented Programming and have experience programming in languages such as Java and C++. In addition, I have knowledge in front end coding for web pages.</p>
+				<p>I am a software developer proficient in Object Oriented Programming and have experience programming in languages such as Java and C++. In addition, I have knowledge in front end
+					coding for web pages and have prior experience with back-end programming. Knowledgeable 
+					in the standards of the manufacturing process from assembly to maintenance.</p>
 			</section>
 
 			<hr>
 
 			<section class="skills">
 				<h2>Skills</h2>
+				<h3>Software Development Methodologies</h3>
+				<ul>
+					<li>Agile/Scrum</li>
+					<li>Object-Oriented Programming</li>
+				</ul>
 				<h3>Programming/Scripting Languages</h3>
 				<ul>
-					<li>C++ (Proficient)</li>
-					<li>Java (Proficient)</li>
-					<li>C (Prior Experience)</li>
-					<li>HTML5 (Proficient)</li>
-					<li>CSS3 (Proficient)</li>
-					<li>PHP (Prior Experience)</li>
-					<li>Shell Scripting - bash (Prior Experience)</li>
-					<li>Android (Beginner)</li>
+					<li>C++</li>
+					<li>Java</li>
+					<li>C</li>
+					<li>HTML5</li>
+					<li>CSS3</li>
+					<li>PHP</li>
+					<li>Shell Scripting - bash</li>
+					<li>Android</li>
+				</ul>
+				<h3>Tools</h3>
+				<ul>
+					<li>Git</li>
+					<li>Amazon Web Services</li>
 				</ul>
 			</section>
 
@@ -76,13 +82,30 @@
 				<h2>Work / Experiences</h2>
 				<ul>
 					<li>
-						<p><span class="bold">Rutgers Computer Lab</span>: Computer Lab Assistant Piscataway, NJ | 2010-2012<br><span class="indent">Assisted students with problems on the computer in the lab. Responsible for the upkeep of computers.</span></p>
+						<p><span class="bold">AMAZON.COM</span><br>Software Development Engineer I<br><span class="">Maintained, updated and fixed bugs in legacy software.
+							<br>
+							Worked on supporting purchasing orders and helped transition purchasing program to a new ordering platform.
+							<br>
+							Created testing procedure and team functions.
+							<br>
+							Lead team in agile/scrum meetings.<br>
+							Migrated legacy software to Amazon Web Services.<br>
+							Implemented new system to process purchasing of items for on demand products.<br>
+							Setup notification system in AWS to help process new orders.
+							</span></p>
 					</li>
 					<li>
-						<p><span class="bold">Rutgers Solar Car</span>: Webmaster | 2012-2014<br><span class="indent">Initiated and participated in the designing of a solar car to compete in the American Solar Car Challenge. Helping to design and create an android application to record data of solar car. In addition, redesigning and recreating Rutgers Solar Car website.</span></p>
+						<p><span class="bold">BARCLAYS CAPITAL</span><br>Jr. Java Developer <br><span class="">Supported front office in challenges when trades or swaps have errors or problems.
+							Coded and tested in Java to retrieve and store new trade details to database.
+							Migrated legacy code to internal framework.
+							</span></p>
 					</li>
 					<li>
-						<p><span class="bold">Rutgers Chess Club</span>: Member | 2010-2011<br><span class="indent">Taught new members and those interested how to play the game of chess. Had friendly competition among members and to teach logics and improve thinking skills. Competed against schools such as Princeton in friendly matches and competed in local tournaments.</span></p>
+						<p><span class="bold">UNIONMED INC</span><br>Product Engineer<br><span class="">Created the safety and manufacturing standards for production line.
+							Manufactured, calibrated and maintained medical device in addition to assisting customer support to fix problems that occur with the machines.
+							Maintained, updated and fixed hexadecimal code for firmware of medical devices.
+							Designed and programmed software used to communicate with medical devices in order to calibrate and adjust parameters.
+							</span></p>
 					</li>
 				</ul>
 			</section>
@@ -98,7 +121,6 @@
 						<li><a href="https://github.com/Nattime/ece-intro-to-computer-engineering">Intro to Computer Engineering</a></li>
 					</ul>
 				</div>
-
 				<div class="right-section-col">
 					<h3>Webpages</h3>
 					<ul>
@@ -119,7 +141,6 @@
 		</main>
 
 		<footer class="footer-info clear">
-			<p class="copyright-info">Copyright &copy; 2017. Designed by <span class="genitx">Genitx</span>. Updated July 19, 2017</p>
 		</footer>
 	</body>
 </html>

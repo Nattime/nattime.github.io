@@ -1,0 +1,34 @@
+/*
+	------------------- color scheme --------------------
+
+	red: #b80f0c, rgb(184, 15, 12), rgba(184, 15, 12, 1)
+	cyan: #0cb5b8, rgb(12, 181, 184), rgba(12, 181, 184, 1)
+
+	logo background: background-color: rgba(12, 12, 12, .3)
+	layover color: rgba(0, 0, 0, .7)
+*/
+
+/* ------------------ navigation ------------------ */
+nav#header-nav{
+	text-align: center;
+}
+
+ul.nav-list > li{
+	display: inline;
+    font-family: Arial;
+}
+
+ul.nav-list > li > a{
+	display: inline-block;
+	text-decoration: none;
+	font-size: 1.6em;
+	color: white;
+	padding: .5em;
+	transition: background-color .5s, color .5s;
+	transition: color .5s;
+}
+
+ul.nav-list > li > a:hover{
+	background-color: rgba(12, 12, 12, .5);
+	color: rgba(184, 15, 12, 1);
+}
